@@ -1,0 +1,30 @@
+/*  -------- Section Contatti -------- */
+.contatti {
+    margin-block: 10%;
+    max-width: 100%;
+}
+
+
+
+.section-3 h1 {}
+
+
+.email-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 40px;
+}
+
+.a-email {
+    color: var(--orange);
+    transition: all 1s;
+}
+
+.a-email:hover {
+    color: var(--white);
+    transition: all 1s;
+    text-decoration: underline;
+}

@@ -1,0 +1,42 @@
+/*  -------- Section Chi sono -------- */
+
+.chisono-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.section-left {
+    width: 60%;
+    padding: 8%;
+}
+
+.section-right {
+    width: 40%;
+    display: flex;
+    margin-top: -30px;
+}
+
+.chisono-container p {
+    margin-bottom: 10px;
+}
+
+.img-Laura {
+    margin-left: 20px;
+    margin-top: 20px;
+    max-width: 350px;
+    min-width: 100px;
+    position: relative;
+    border-top: none;
+    border-left: none;
+    transition: 0.5s ease-in-out;
+    box-shadow: 60px -18px var(--orange);
+}
+
+.img-Laura:hover {
+    transform: scale(1.05);
+    transition: 450ms ease-in-out;
+    box-shadow: 60px 18px var(--orange);
+}

@@ -1,0 +1,309 @@
+/* Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@400;600;700&family=Roboto+Mono&display=swap');
+
+@import "header.css";
+@import "lateral-icons.css";
+@import "chisono.css";
+@import "skills.css";
+@import "progetti.css";
+@import "contatti.css";
+@import "slider.css";
+
+:root {
+
+    /* Colors */
+    --black: #2A2A2E;
+    --dark-grey: #38383B;
+    --grey: #838383;
+    --orange: #FF715B;
+    --white: #d1d1d1;
+
+    /* Font family */
+    --montserrat: 'Montserrat', sans-serif;
+    --robotoM: 'Roboto Mono', monospace;
+    --inter: 'Inter', sans-serif;
+
+    /* Font size */
+    --fs-h1: clamp(2rem, 4vw + 1rem, 6rem);
+    --fs-h2: clamp(1.5rem, 2vw + 1rem, 3rem);
+    --fs-h3: clamp(1.2rem, 1.8vw + 1rem, 2rem);
+    --fs-p: clamp(.5rem, 1rem, 1.5rem);
+
+    --shadow: 1px 0px 5px darkgray;
+}
+
+/*  GENERAL  */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: var(--montserrat);
+    background-color: var(--black);
+    color: var(--white);
+    height: 100%;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* All span class orange */
+
+.orange {
+    color: var(--orange);
+    position: relative;
+    cursor: pointer;
+    font-family: var(--robotoM);
+}
+
+li {
+    position: relative;
+}
+
+.h1-name {
+    position: relative;
+}
+
+
+li:after,
+.h1-name:after,
+.orange:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2.5px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--orange);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+
+li:hover:after,
+.h1-name:hover:after,
+.orange:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+p {
+    font-size: var(--fs-p);
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: var(--inter);
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: var(--fs-h1);
+    margin-bottom: .2rem;
+}
+
+h2 {
+    font-size: var(--fs-h2);
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: var(--fs-h3);
+    margin-bottom: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-delay: 100ms;
+    height: 100vh;
+    width: 100%;
+    max-width: 80%;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition-delay: 100ms;
+    height: 100%;
+    max-width: 80%;
+}
+
+
+.menu-footer {
+    display: none;
+}
+
+
+/*  -------- Section Home -------- */
+
+.orange-p {
+    color: var(--orange);
+    font-family: var(--robotoM);
+}
+
+.sub-title {
+    color: var(--grey);
+}
+
+.p-home {
+    max-width: 450px;
+}
+
+
+
+
+
+@media (max-width: 50em) {
+
+    body {
+        margin-inline: 0%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .lateral-icons {
+        display: none;
+    }
+
+    .section-1 {
+        height: 70vh;
+    }
+
+    /* ----------------------------- chi sono mobile */
+    .section-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section-left {
+        padding: 0%;
+        width: 100%;
+    }
+
+    .section-right {
+        width: 100%;
+        display: flex;
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .img-Laura {
+        margin-left: 2px;
+        margin-block: 10px;
+        position: relative;
+        box-shadow: 8px -8px var(--orange);
+    }
+
+    .img-Laura:hover {
+        transform: scale(1);
+        transition: 0ms ease-in-out;
+        box-shadow: 8px -8px var(--orange);
+    }
+
+    .chisono-container p {
+        font-size: 15px;
+    }
+
+
+    .h2-skill {
+        margin-top: 20px;
+    }
+
+    .icon-skill {
+        opacity: 1;
+    }
+
+    .grid-row {
+        padding: 0 5px;
+    }
+
+    .grid-row {
+        /*     display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 350px));
+        grid-gap: 5% 3%; */
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 350px));
+        grid-template-rows: 350px;
+
+        grid-gap: 1rem;
+        justify-content: center;
+        height: 100%;
+    }
+
+    /* ----------------------------- contatti mobile */
+
+    .email-container {
+        width: 40%;
+    }
+
+    .contatti {
+        margin-block: 30%;
+        max-width: 100%;
+    }
+
+    footer {
+        margin-bottom: 65px;
+    }
+
+
+    .menu-footer {
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        height: 60px;
+        background-color: var(--dark-grey);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 80px;
+    }
+
+    .footer-p {
+        display: none;
+    }
+
+    .footer-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .icon a {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        fill: var(--orange);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
