@@ -37,7 +37,7 @@ const arr = [
         background: "url(images/projects/bg-duck.png)",
         link: "https://laurasaporoso.github.io/Dancing-Duck.github.io/",
         titolo: "Duck Javascript",
-        descrizione: "Peperella che balla con musica",
+        descrizione: "Paperella che balla con musica",
         linguaggi: "HTML, CSS, JAVASCRIPT",
     },
     {
