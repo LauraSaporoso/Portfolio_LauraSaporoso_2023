@@ -11,7 +11,7 @@ const arr = [
     {
         iconaProgetto: "images/icons/icon-project.png",
         background: "url(images/projects/bg-netflix.png)",
-        link: "https://laurasaporoso.github.io/metflixhomepage.github.io/",
+        link: "https://laurasaporoso.github.io/metflixhomepage/",
         titolo: "Netflix Clone",
         descrizione: "Clone di netflix solo in HTML CSS da zero (max size Laptop normale)",
         linguaggi: "HTML, CSS",
@@ -19,7 +19,7 @@ const arr = [
     {
         iconaProgetto: "images/icons/icon-project.png",
         background: "url(images/projects/bg-facebook.png)",
-        link: "https://laurasaporoso.github.io/Facebook-homepage-clone.github.io/",
+        link: "https://laurasaporoso.github.io/Facebook-homepage-clone/",
         titolo: "Facebook Clone",
         descrizione: "Clone di Facebook solo in HTML CSS da zero",
         linguaggi: "HTML, CSS",
@@ -27,7 +27,7 @@ const arr = [
     {
         iconaProgetto: "images/icons/icon-project.png",
         background: "url(images/projects/bg-loginsta.png)",
-        link: "https://laurasaporoso.github.io/instagramclone.github.io/",
+        link: "https://laurasaporoso.github.io/instagramclone/",
         titolo: "Instagram Login Clone",
         descrizione: "Clone di pagina login instagram",
         linguaggi: "HTML, CSS",
@@ -35,7 +35,7 @@ const arr = [
     {
         iconaProgetto: "images/icons/icon-project.png",
         background: "url(images/projects/bg-duck.png)",
-        link: "https://laurasaporoso.github.io/Dancing-Duck.github.io/",
+        link: "https://laurasaporoso.github.io/Dancing-Duck/",
         titolo: "Duck Javascript",
         descrizione: "Paperella che balla con musica",
         linguaggi: "HTML, CSS, JAVASCRIPT",
@@ -43,7 +43,7 @@ const arr = [
     {
         iconaProgetto: "images/icons/icon-project.png",
         background: "url(images/projects/bg-lognet.png)",
-        link: "https://laurasaporoso.github.io/metflixclone.github.io/",
+        link: "https://laurasaporoso.github.io/metflixclone/",
         titolo: "Netflix Login Clone",
         descrizione: "Clone di pagina login Netflix",
         linguaggi: "HTML, CSS",
@@ -51,7 +51,7 @@ const arr = [
     {
         iconaProgetto: "images/icons/icon-project.png",
         background: "url(images/projects/bg-logamaz.png)",
-        link: "https://laurasaporoso.github.io/amazonclone.github.io/",
+        link: "https://laurasaporoso.github.io/amazonclone/",
         titolo: "Amazon Login Clone",
         descrizione: "Clone di pagina login Amazon",
         linguaggi: "HTML, CSS",
