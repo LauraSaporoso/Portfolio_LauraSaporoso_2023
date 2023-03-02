@@ -8,6 +8,14 @@ tl.to(".intro", { y: "-100%", duration: 0.7 }, "-=1");
 //   PROGETTI
 
 const arr = [
+        {
+        iconaProgetto: "images/icons/icon-project.png",
+        background: "url(images/projects/bg-website22.png)",
+        link: "https://laurasaporoso.github.io/sitolaurasaporoso",
+        titolo: "Sito web 2022",
+        descrizione: "Sito web portfolio del 2022. Scrittura del codice e design partiti da zero.",
+        linguaggi: "HTML, CSS, JAVASCRIPT",
+    },
     {
         iconaProgetto: "images/icons/icon-project.png",
         background: "url(images/projects/bg-netflix.png)",
