@@ -59,7 +59,7 @@ const arr = [
  /*   {
         iconaProgetto: "images/icons/icon-project.png",
         background: "url(images/projects/bg-logamaz.png)",
-        link: "https://keen-gumption-9c8080.netlify.app",
+        link: "",
         titolo: "Amazon Login Clone",
         descrizione: "Clone di pagina login Amazon",
         linguaggi: "HTML, CSS",
