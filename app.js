@@ -19,7 +19,7 @@ const arr = [
     {
         iconaProgetto: "images/icons/icon-project.png",
         background: "url(images/projects/bg-netflix.png)",
-        link: "https://laurasaporoso.github.io/metflixhomepage/",
+        link: "https://6423f22ce513dd7373fdb7ed--gleeful-pithivier-674a7e.netlify.app/",
         titolo: "Netflix Clone",
         descrizione: "Clone di netflix solo in HTML CSS da zero (max size Laptop normale)",
         linguaggi: "HTML, CSS",
@@ -27,7 +27,7 @@ const arr = [
     {
         iconaProgetto: "images/icons/icon-project.png",
         background: "url(images/projects/bg-facebook.png)",
-        link: "https://laurasaporoso.github.io/Facebook-homepage-clone/",
+        link: "https://clever-seahorse-dfca46.netlify.app",
         titolo: "Facebook Clone",
         descrizione: "Clone di Facebook solo in HTML CSS da zero",
         linguaggi: "HTML, CSS",
@@ -35,7 +35,7 @@ const arr = [
     {
         iconaProgetto: "images/icons/icon-project.png",
         background: "url(images/projects/bg-loginsta.png)",
-        link: "https://laurasaporoso.github.io/instagramclone/",
+        link: "https://splendid-salamander-4988c2.netlify.app",
         titolo: "Instagram Login Clone",
         descrizione: "Clone di pagina login instagram",
         linguaggi: "HTML, CSS",
@@ -51,7 +51,7 @@ const arr = [
     {
         iconaProgetto: "images/icons/icon-project.png",
         background: "url(images/projects/bg-lognet.png)",
-        link: "https://laurasaporoso.github.io/metflixclone/",
+        link: "https://comfy-trifle-beb4c4.netlify.app/",
         titolo: "Netflix Login Clone",
         descrizione: "Clone di pagina login Netflix",
         linguaggi: "HTML, CSS",
@@ -59,7 +59,7 @@ const arr = [
     {
         iconaProgetto: "images/icons/icon-project.png",
         background: "url(images/projects/bg-logamaz.png)",
-        link: "https://laurasaporoso.github.io/amazonclone/",
+        link: "https://keen-gumption-9c8080.netlify.app",
         titolo: "Amazon Login Clone",
         descrizione: "Clone di pagina login Amazon",
         linguaggi: "HTML, CSS",
