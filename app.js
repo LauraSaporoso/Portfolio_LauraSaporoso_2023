@@ -8,6 +8,14 @@ tl.to(".intro", { y: "-100%", duration: 0.7 }, "-=1");
 //   PROGETTI
 
 const arr = [
+         {
+        iconaProgetto: "images/icons/icon-project.png",
+        background: "url(images/weatherApp.png)",
+        link: "https://symphonious-chimera-92f623.netlify.app/",
+        titolo: "Challenge Meteo API",
+        descrizione: "Prova app meteo con API, regole: no video tutorial, solo google",
+        linguaggi: "HTML, CSS, JAVASCRIPT, API",
+    },
         {
         iconaProgetto: "images/icons/icon-project.png",
         background: "url(images/projects/bg-website22.png)",
