@@ -56,14 +56,14 @@ const arr = [
         descrizione: "Clone di pagina login Netflix",
         linguaggi: "HTML, CSS",
     },
-    {
+ /*   {
         iconaProgetto: "images/icons/icon-project.png",
         background: "url(images/projects/bg-logamaz.png)",
         link: "https://keen-gumption-9c8080.netlify.app",
         titolo: "Amazon Login Clone",
         descrizione: "Clone di pagina login Amazon",
         linguaggi: "HTML, CSS",
-    },
+    },*/
 ];
 
 arr.forEach((data) => {
