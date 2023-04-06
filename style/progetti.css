@@ -65,7 +65,7 @@
     background-size: contain;
     /*  background: var(--dark-grey); */
     box-shadow: var(--shadow);
-    color: var(--white);
+    color: #E7E7E7; /* white */
     align-items: stretch;
 
     transition: 0.5s ease-in-out;
