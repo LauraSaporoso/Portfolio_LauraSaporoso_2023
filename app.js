@@ -16,6 +16,14 @@ const arr = [
         descrizione: "Prova app meteo con API, regole: no video tutorial, solo google",
         linguaggi: "HTML, CSS, JAVASCRIPT, API",
     },
+         {
+        iconaProgetto: "images/icons/icon-project.png",
+        background: "url(images/projects/bg-galley-js.png)",
+        link: "https://laurasaporoso.github.io/Gallery-Challenge/",
+        titolo: "Gallery Challenge",
+        descrizione: "Gallery con scorrimento destra-sinistra attraverso click di frecce, scroll e drag. Immagini API.",
+        linguaggi: "HTML, CSS, JAVASCRIPT, API",
+    },
         {
         iconaProgetto: "images/icons/icon-project.png",
         background: "url(images/projects/bg-website22.png)",
