@@ -18,7 +18,7 @@ const arr = [
     },
          {
         iconaProgetto: "images/icons/icon-project.png",
-        background: "url(images/projects/weatherAppApi.png)",
+        background: "url(images/projects/bg-weather.png)",
         link: "https://symphonious-chimera-92f623.netlify.app/",
         titolo: "Challenge Meteo API",
         descrizione: "Prova app meteo con API, regole: no video tutorial, solo google",
