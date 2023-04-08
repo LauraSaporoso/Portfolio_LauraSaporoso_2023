@@ -10,6 +10,14 @@ tl.to(".intro", { y: "-100%", duration: 0.7 }, "-=1");
 const arr = [
          {
         iconaProgetto: "images/icons/icon-project.png",
+        background: "url(images/projects/bg-cinema.png)",
+        link: "https://laurasaporoso.github.io/Cinema-movies-Challenge/",
+        titolo: "Cinema challenge",
+        descrizione: "Realizzazione prototipo per gestione di lista film di un cinema con 12 Sale. Al click si avranno più info. Tutto generato in JS.",
+        linguaggi: "HTML, CSS, JAVASCRIPT",
+    },
+         {
+        iconaProgetto: "images/icons/icon-project.png",
         background: "url(images/projects/weatherAppApi.png)",
         link: "https://symphonious-chimera-92f623.netlify.app/",
         titolo: "Challenge Meteo API",
