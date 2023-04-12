@@ -24,6 +24,14 @@ const arr = [
         descrizione: "Prova app meteo con API, regole: no video tutorial, solo google",
         linguaggi: "HTML, CSS, JAVASCRIPT, API",
     },
+     {
+        iconaProgetto: "images/icons/icon-project.png",
+        background: "url(images/projects/bg-todo.png)",
+        link: "https://laurasaporoso.github.io/To-Do-List-42-school/",
+        titolo: "To Do List 42Firenze",
+        descrizione: "Esercizio in Javascript, crea una To Do List.",
+        linguaggi: "HTML, CSS, JAVASCRIPT, COOKIE",
+    },
          {
         iconaProgetto: "images/icons/icon-project.png",
         background: "url(images/projects/bg-galley-js.png)",
@@ -42,11 +50,11 @@ const arr = [
     },
     {
         iconaProgetto: "images/icons/icon-project.png",
-        background: "url(images/projects/bg-netflix.png)",
-        link: "https://6423f22ce513dd7373fdb7ed--gleeful-pithivier-674a7e.netlify.app/",
-        titolo: "Netflix Clone",
-        descrizione: "Clone di netflix solo in HTML CSS da zero (max size Laptop normale)",
-        linguaggi: "HTML, CSS",
+        background: "url(images/projects/bg-baloon.png)",
+        link: "https://laurasaporoso.github.io/Explode-this-baloon-42-school/",
+        titolo: "Baloon 42Firenze",
+        descrizione: "Esercizio in Javascript, eventi click(cambia colore) e leave(cambia colore al contrario), a 420 pixel esplode.",
+        linguaggi: "HTML, CSS, JAVASCRIPT",
     },
     {
         iconaProgetto: "images/icons/icon-project.png",
@@ -54,6 +62,14 @@ const arr = [
         link: "https://clever-seahorse-dfca46.netlify.app",
         titolo: "Facebook Clone",
         descrizione: "Clone di Facebook solo in HTML CSS da zero",
+        linguaggi: "HTML, CSS",
+    },
+    {
+        iconaProgetto: "images/icons/icon-project.png",
+        background: "url(images/projects/bg-netflix.png)",
+        link: "https://6423f22ce513dd7373fdb7ed--gleeful-pithivier-674a7e.netlify.app/",
+        titolo: "Netflix Clone",
+        descrizione: "Clone di netflix solo in HTML CSS da zero (max size Laptop normale)",
         linguaggi: "HTML, CSS",
     },
     {
