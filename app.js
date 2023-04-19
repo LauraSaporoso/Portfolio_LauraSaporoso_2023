@@ -10,11 +10,11 @@ tl.to(".intro", { y: "-100%", duration: 0.7 }, "-=1");
 const arr = [
          {
         iconaProgetto: "images/icons/icon-project.png",
-        background: "url(images/projects/bg-cinema.png)",
-        link: "https://laurasaporoso.github.io/Cinema-movies-Challenge/",
-        titolo: "Cinema challenge",
-        descrizione: "Realizzazione prototipo per gestione di lista film di un cinema con 12 Sale. Al click si avranno più info. Tutto generato in JS.",
-        linguaggi: "HTML, CSS, JAVASCRIPT",
+        background: "url(images/projects/bg-pokemon.png)",
+        link: "https://laurasaporoso.github.io/Pokedex-Pokemon-Javascript/",
+        titolo: "Pokedex 150 Pokemon",
+        descrizione: "Pokedex in Javascript con 150 Pokemon, utilizzata API per immagini, nome, id, gif avanti-dietro, info peso e altezza Pokemon",
+        linguaggi: "HTML, CSS, JAVASCRIPT, API",
     },
          {
         iconaProgetto: "images/icons/icon-project.png",
@@ -39,6 +39,14 @@ const arr = [
         titolo: "Gallery Challenge",
         descrizione: "Gallery con scorrimento destra-sinistra attraverso click di frecce, scroll e drag. Immagini API.",
         linguaggi: "HTML, CSS, JAVASCRIPT, API",
+    },
+         {
+        iconaProgetto: "images/icons/icon-project.png",
+        background: "url(images/projects/bg-cinema.png)",
+        link: "https://laurasaporoso.github.io/Cinema-movies-Challenge/",
+        titolo: "Cinema challenge",
+        descrizione: "Realizzazione prototipo per gestione di lista film di un cinema con 12 Sale. Al click si avranno più info. Tutto generato in JS.",
+        linguaggi: "HTML, CSS, JAVASCRIPT",
     },
         {
         iconaProgetto: "images/icons/icon-project.png",
