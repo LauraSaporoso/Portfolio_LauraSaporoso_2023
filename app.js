@@ -8,6 +8,14 @@ tl.to(".intro", { y: "-100%", duration: 0.7 }, "-=1");
 //   PROGETTI
 
 const arr = [
+                  {
+        iconaProgetto: "images/icons/icon-project.png",
+        background: "url(images/projects/bg-movie-api.png)",
+        link: "https://643f9f0283fc96746ead308b--dainty-stroopwafel-1a1db4.netlify.app/",
+        titolo: "Most Popular Movies on TMDB, API.",
+        descrizione: "Lista dei 20 film più popolari su TMDB, titoli, locandine, trame e votazioni presi tramite API.",
+        linguaggi: "HTML, CSS, JAVASCRIPT, API",
+    },
          {
         iconaProgetto: "images/icons/icon-project.png",
         background: "url(images/projects/bg-pokemon.png)",
