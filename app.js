@@ -8,6 +8,14 @@ tl.to(".intro", { y: "-100%", duration: 0.7 }, "-=1");
 //   PROGETTI
 
 const arr = [
+                    {
+        iconaProgetto: "images/icons/icon-project.png",
+        background: "url(images/projects/bg-quiz-angular.png)",
+        link: "https://angularquizapp.vercel.app/quiz-select",
+        titolo: "Angular - Quiz app API",
+        descrizione: "Applicazione quiz in Angular con uso di API. Realizzata in team di 2. #Lascaux.",
+        linguaggi: "ANGULAR, HTML, CSS, TYPESCRIPT, API",
+    },
                   {
         iconaProgetto: "images/icons/icon-project.png",
         background: "url(images/projects/bg-movie-api.png)",
